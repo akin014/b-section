@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: gold;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+.logo a {
+    background-color: black;
+    color: gold;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: black;
+    font-weight: 900;
+    font-size: 19px;
+}
